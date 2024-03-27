@@ -8,8 +8,8 @@ import './App.css'
 function App() {
   return (
     <>
-      <Navbar />
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
         </Routes>
